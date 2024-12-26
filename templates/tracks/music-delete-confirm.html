@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delete Music Confirmation - MusicVideoHub</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="animations.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="glass-effect">
+        <nav>
+            <div class="logo">
+                <a href="index.html">MusicVideo<span>Hub</span></a>
+            </div>
+            <ul>
+                <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="music-list.html"><i class="fas fa-music"></i> Music</a></li>
+                <li><a href="video-list.html"><i class="fas fa-video"></i> Videos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <h1 class="animated-text">Delete Music Confirmation</h1>
+            <a href="music-list.html" class="btn"><i class="fas fa-arrow-left"></i> Back to List</a>
+        </section>
+
+        <section class="delete-confirm glass-effect">
+            <h2>Are you sure you want to delete this music?</h2>
+            <div class="music-info">
+                <img src="https://via.placeholder.com/150x150" alt="Album Cover" class="album-cover">
+                <div class="music-details">
+                    <h3>Awesome Song</h3>
+                    <p>by Amazing Artist</p>
+                    <p>Album: Incredible Sounds</p>
+                </div>
+            </div>
+            <p class="warning">This action cannot be undone.</p>
+            <div class="action-buttons">
+                <a href="music-list.html" class="btn btn-secondary">Cancel</a>
+                <form action="#" method="POST" style="display: inline;">
+                    <button type="submit" class="btn btn-danger">Delete</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="glass-effect">
+        <p>&copy; 2023 MusicVideo<span>Hub</span>. All rights reserved.</p>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
